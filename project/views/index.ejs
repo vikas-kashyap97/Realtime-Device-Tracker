@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Device Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="user-list">
+        <h2>Connected Users</h2>
+        <ul id="userList"></ul>
+    </div>
+
+    <button id="theme-toggle" aria-label="Toggle dark mode">
+        <img src="https://img.icons8.com/?size=100&id=bv1XgSVyIgCb&format=png&color=000000" alt="Dark mode" class="dark-icon">
+        <img src="https://img.icons8.com/?size=100&id=SyBDr18WdUcD&format=png&color=000000" alt="Light mode" class="light-icon" style="display: none;">
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/geolib/3.3.4/geolib.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
