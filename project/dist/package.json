@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build": "echo 'No build step required'"
+    "build": "mkdir -p dist && cp -r public views src app.js package.json package-lock.json dist/"
   },
   "keywords": [],
   "author": "",
